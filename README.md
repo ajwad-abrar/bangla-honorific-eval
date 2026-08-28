@@ -19,7 +19,7 @@ frames × 4 conditions.
 | Column | |
 |---|---|
 | `id` | serial number, 1–2016 |
-| `item_id` | `occupation|template|condition` |
+| `item_id` | `occupation` \| `template` \| `condition`, joined by pipes |
 | `occupation_en`, `occupation_bn` | the occupation, in English and Bangla |
 | `template_id` | `T1`–`T5`, `P1`–`P2` |
 | `primed` | whether the frame states outright that the person is respected |
